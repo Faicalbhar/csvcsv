@@ -1,0 +1,20 @@
+name,ring,quadrant,isNew,description
+Databricks,ADOPT,Platforms,FALSE,Lakehouse unifié : stockage Delta Lake + traitement Spark + orchestration Workflows
+Delta Lake,ADOPT,Platforms,FALSE,Format stockage ACID avec time-travel et schema enforcement natifs
+Python,ADOPT,Languages,FALSE,Langage principal équipe - PySpark pour traitement distribué
+React,ADOPT,Frameworks,FALSE,Frontend pour UI drag & drop - écosystème mature avec React Flow
+Great Expectations,ADOPT,Tools,FALSE,Framework qualité données - 50+ règles prédéfinies intégration Spark
+GitHub Actions,ADOPT,Tools,FALSE,CI/CD pour déploiement automatisé dev staging prod
+YAML Configs,ADOPT,Techniques,FALSE,Format déclaratif configs pipelines - lisible par métier et versionnable
+Asset Bundles,TRIAL,Platforms,TRUE,Nouveau - Infrastructure as Code natif Databricks pour déploiement multi-env
+Delta Live Tables,TRIAL,Platforms,TRUE,ETL déclaratif simplifié avec mode streaming disponible
+React Flow,TRIAL,Frameworks,TRUE,Librairie drag & drop graphiques pour builder visuel pipelines
+FastAPI,TRIAL,Frameworks,TRUE,Backend Python moderne async - documentation auto OpenAPI
+dbt,ASSESS,Tools,FALSE,Transformation SQL analytics - orienté BI plutôt que qualité ingestion
+Apache Kafka,ASSESS,Platforms,FALSE,Streaming temps réel distribué pour V2 quand batch insuffisant
+MLflow,ASSESS,Tools,FALSE,Tracking ML pour future détection anomalies qualité via ML
+Terraform,ASSESS,Tools,FALSE,Alternative Asset Bundler si trop limité - Plan B infrastructure as code
+Streamlit,HOLD,Frameworks,FALSE,Trop limité pour interactions complexes - orienté data science pas production
+Hadoop on-premise,HOLD,Platforms,FALSE,Legacy obsolète vs architectures cloud lakehouse - coût maintenance élevé
+Informatica,HOLD,Tools,FALSE,ETL propriétaire coûteux - vendor lock-in fort
+Excel VBA,HOLD,Techniques,FALSE,Scripts non maintenables - pas de versioning - remplacé par configs YAML

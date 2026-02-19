@@ -1,20 +1,25 @@
 name,ring,quadrant,isNew,description
-Databricks,ADOPT,Platforms,FALSE,Lakehouse unifié : stockage Delta Lake + traitement Spark + orchestration Workflows
-Delta Lake,ADOPT,Platforms,FALSE,Format stockage ACID avec time-travel et schema enforcement natifs
-Python,ADOPT,Languages,FALSE,Langage principal équipe - PySpark pour traitement distribué
-React,ADOPT,Frameworks,FALSE,Frontend pour UI drag & drop - écosystème mature avec React Flow
-Great Expectations,ADOPT,Tools,FALSE,Framework qualité données - 50+ règles prédéfinies intégration Spark
-GitHub Actions,ADOPT,Tools,FALSE,CI/CD pour déploiement automatisé dev staging prod
-YAML Configs,ADOPT,Techniques,FALSE,Format déclaratif configs pipelines - lisible par métier et versionnable
-Asset Bundles,TRIAL,Platforms,TRUE,Nouveau - Infrastructure as Code natif Databricks pour déploiement multi-env
-Delta Live Tables,TRIAL,Platforms,TRUE,ETL déclaratif simplifié avec mode streaming disponible
-React Flow,TRIAL,Frameworks,TRUE,Librairie drag & drop graphiques pour builder visuel pipelines
-FastAPI,TRIAL,Frameworks,TRUE,Backend Python moderne async - documentation auto OpenAPI
-dbt,ASSESS,Tools,FALSE,Transformation SQL analytics - orienté BI plutôt que qualité ingestion
-Apache Kafka,ASSESS,Platforms,FALSE,Streaming temps réel distribué pour V2 quand batch insuffisant
-MLflow,ASSESS,Tools,FALSE,Tracking ML pour future détection anomalies qualité via ML
-Terraform,ASSESS,Tools,FALSE,Alternative Asset Bundler si trop limité - Plan B infrastructure as code
-Streamlit,HOLD,Frameworks,FALSE,Trop limité pour interactions complexes - orienté data science pas production
-Hadoop on-premise,HOLD,Platforms,FALSE,Legacy obsolète vs architectures cloud lakehouse - coût maintenance élevé
-Informatica,HOLD,Tools,FALSE,ETL propriétaire coûteux - vendor lock-in fort
-Excel VBA,HOLD,Techniques,FALSE,Scripts non maintenables - pas de versioning - remplacé par configs YAML
+React 18,ADOPT,Frameworks,FALSE,Frontend avec TypeScript - interface drag & drop pour quality checks
+FastAPI,ADOPT,Frameworks,FALSE,Backend Python async - API REST et génération YAML/JSON
+Databricks,ADOPT,Platforms,FALSE,Plateforme data unifiée - Delta Lake + Spark + Workflows
+Delta Lake,ADOPT,Platforms,FALSE,Stockage ACID avec time-travel - Bronze Silver Gold layers
+Great Expectations,ADOPT,Tools,FALSE,Framework data quality - 50+ règles de validation
+Python,ADOPT,Languages,FALSE,Langage principal - PySpark pour traitement données
+Azure DevOps,ADOPT,Tools,FALSE,CI/CD pipelines - build release et déploiement automatique
+YAML Configs,ADOPT,Techniques,FALSE,Format déclaratif pour configurations pipelines
+Asset Bundles,TRIAL,Platforms,TRUE,Nouveau Databricks - Infrastructure as Code pour déploiement multi-env
+React Flow,TRIAL,Frameworks,TRUE,Librairie drag & drop pour builder visuel des pipelines
+Unity Catalog,TRIAL,Tools,TRUE,Gouvernance données - lineage et permissions (à évaluer)
+Delta Live Tables,ASSESS,Platforms,TRUE,ETL déclaratif simplifié - option streaming future
+Apache Airflow,ASSESS,Tools,FALSE,Orchestration avancée - Phase 2 remplacer Workflows
+dbt,ASSESS,Tools,FALSE,Transformations SQL analytics - à évaluer pour phase Gold
+Apache Kafka,ASSESS,Platforms,FALSE,Streaming temps réel - pour évolution batch vers streaming
+Monte Carlo,ASSESS,Tools,FALSE,Data observability - surveillance proactive qualité (hors budget MVP)
+Prefect,ASSESS,Tools,FALSE,Alternative moderne à Airflow - à surveiller
+Informatica,HOLD,Tools,FALSE,ETL propriétaire coûteux - remplacé par solution open source
+Talend,HOLD,Tools,FALSE,Legacy ETL - trop lourd et coûteux pour notre use case
+Hadoop on-premise,HOLD,Platforms,FALSE,Obsolète vs architectures cloud lakehouse
+Excel VBA,HOLD,Techniques,FALSE,Scripts non maintenables - remplacé par configs YAML + Python
+Streamlit,HOLD,Frameworks,FALSE,Trop limité pour UI complexe - orienté data science pas production
+Django,HOLD,Frameworks,FALSE,Trop lourd pour API simple - FastAPI préféré pour performance
+Vue.js,HOLD,Frameworks,FALSE,Bonne alternative mais React choisi pour écosystème drag & drop

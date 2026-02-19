@@ -1,32 +1,33 @@
 name,ring,quadrant,isNew,description
-Python,ADOPT,Languages,FALSE,Langage principal - PySpark pour Databricks et backend FastAPI
-TypeScript,ADOPT,Languages,FALSE,Superset JavaScript typé - standard React et sécurité code
-SQL,ADOPT,Languages,FALSE,Langage requêtes - transformations données et Delta Lake
-YAML,ADOPT,Languages,FALSE,Format configuration - bundle Databricks et configs pipelines
-React 18+,ADOPT,Frameworks,FALSE,Frontend choisi - Ecosystème drag & drop et TypeScript natif
-FastAPI,ADOPT,Frameworks,FALSE,Backend Python async - validation auto Pydantic et Swagger
-PySpark,ADOPT,Frameworks,FALSE,Traitement distribué - intégration native Databricks
-Pandas,ADOPT,Frameworks,FALSE,Manipulation données - parsing Excel contrats interface
-React DnD,ADOPT,Frameworks,FALSE,Drag & drop - interface quality checks section 1.3
-Databricks,ADOPT,Platforms,FALSE,Plateforme data - Asset Bundles Delta Lake intégration Azure
-Delta Lake,ADOPT,Platforms,FALSE,Stockage ACID - transactions time-travel Bronze-Silver-Gold
-Azure Data Lake,ADOPT,Platforms,FALSE,Stockage cloud - landing zone intégration native
-Azure DevOps,ADOPT,Platforms,FALSE,CI/CD - pipelines build release Azure AD
-Unity Catalog,ADOPT,Platforms,FALSE,Gouvernance données - permissions ACLs sécurité
-Great Expectations,ADOPT,Tools,FALSE,Data quality - 50+ règles validation Data Docs
-Azure Key Vault,ADOPT,Tools,FALSE,Gestion secrets - credentials et sécurité
-Git,ADOPT,Tools,FALSE,Versionning - branches main develop feature
-Docker,ADOPT,Tools,FALSE,Conteneurisation - environnements reproductibles
-Asset Bundles,TRIAL,Platforms,TRUE,Nouveauté Databricks 2023 - Infrastructure as Code natif
-Delta Live Tables,TRIAL,Platforms,TRUE,ETL déclaratif - mode streaming temps réel
-Apache Airflow,ASSESS,Tools,FALSE,Orchestration avancée - Phase 2 remplacer Workflows
-dbt,ASSESS,Tools,FALSE,Transformations SQL - couche Gold modèles métier future
-Apache Kafka,ASSESS,Platforms,FALSE,Streaming temps réel - évolution batch vers streaming
-Vue.js 3,HOLD,Frameworks,FALSE,Alternative écartée - moins mature écosystème drag & drop
-Angular,HOLD,Frameworks,FALSE,Alternative écartée - courbe apprentissage 2-3 mois trop longue
-Django,HOLD,Frameworks,FALSE,Alternative écartée - trop lourd pour API simple
-Flask,HOLD,Frameworks,FALSE,Alternative écartée - manque structure validation auto
-AWS EMR,HOLD,Platforms,FALSE,Alternative écartée - trop configuration manuelle
-Google Dataproc,HOLD,Platforms,FALSE,Alternative écartée - vendor lock-in Google
-Informatica,HOLD,Tools,FALSE,Alternative écartée - coûts licences élevés vendor lock-in
-Talend,HOLD,Tools,FALSE,Alternative écartée - solution lourde legacy
+React 18+,ADOPT,Languages & Frameworks,FALSE,Frontend choisi section 3.3 - Score 4.6/5 Ecosystème riche TypeScript natif et drag drop
+FastAPI,ADOPT,Languages & Frameworks,FALSE,Backend choisi section 3.4 - Score 4.7/5 Async validation auto Pydantic et Swagger
+Python,ADOPT,Languages & Frameworks,FALSE,Langage backend et data - PySpark pour Databricks et FastAPI
+TypeScript,ADOPT,Languages & Frameworks,FALSE,Superset JavaScript typé - standard React et sécurité code section 3.3
+PySpark,ADOPT,Languages & Frameworks,FALSE,Framework traitement distribué - intégration native Databricks section 3.5
+Databricks Workflows,ADOPT,Platforms,FALSE,Orchestration MVP choisie section 3.7 - Natif Databricks simple et monitoring intégré
+Databricks,ADOPT,Platforms,FALSE,Plateforme data choisie section 3.5 - Score 4.6/5 Asset Bundles Delta Lake Azure
+Delta Lake,ADOPT,Platforms,FALSE,Stockage ACID natif Databricks - Transactions time travel et optimisation auto
+Great Expectations,ADOPT,Tools,FALSE,Data quality choisi section 3.6 - Score 4.4/5 50+ expectations et Data Docs auto
+Azure DevOps,ADOPT,Tools,FALSE,CI/CD choisi section 3.8 - Intégration Azure native et pipelines automatisés
+Asset Bundles,TRIAL,Platforms,TRUE,Nouveauté Databricks 2023 section 3.5 - Infrastructure as Code natif déploiement multi-env
+Delta Live Tables,TRIAL,Platforms,TRUE,ETL déclaratif Databricks section 3.5 - Mode streaming temps réel à évaluer
+Apache Airflow,ASSESS,Tools,FALSE,Orchestration Phase 2 section 3.7 - Flexibilité avancée sensors et backfill
+dbt,ASSESS,Tools,FALSE,Transformations SQL section 3.7 - Couche Gold modèles métier future
+Apache Kafka,ASSESS,Platforms,FALSE,Streaming temps réel section 3.7 - Evolution batch vers streaming
+Vue.js 3,HOLD,Languages & Frameworks,FALSE,Alternative frontend écartée section 3.3 - Moins mature écosystème drag drop vs React
+Angular 15+,HOLD,Languages & Frameworks,FALSE,Alternative frontend écartée section 3.3 - Courbe apprentissage 3 mois trop longue MVP
+Django,HOLD,Languages & Frameworks,FALSE,Alternative backend écartée section 3.4 - Trop lourd pour API simple vs FastAPI
+Flask,HOLD,Languages & Frameworks,FALSE,Alternative backend écartée section 3.4 - Manque structure validation auto
+Spring Boot,HOLD,Languages & Frameworks,FALSE,Alternative backend écartée section 3.4 - Environnement Java pas Python data
+Node Express,HOLD,Languages & Frameworks,FALSE,Alternative backend écartée section 3.4 - Pas cohérent stack Python Databricks
+AWS EMR,HOLD,Platforms,FALSE,Alternative data platform écartée section 3.5 - Trop configuration manuelle vs Databricks
+Google Dataproc,HOLD,Platforms,FALSE,Alternative data platform écartée section 3.5 - Vendor lock-in Google
+Snowflake,HOLD,Platforms,FALSE,Alternative data platform écartée section 3.5 - Data warehousing pur moins adapté Spark
+Informatica,HOLD,Tools,FALSE,Alternative data quality écartée section 3.6 - Coûts licences élevés vendor lock-in
+Talend,HOLD,Tools,FALSE,Alternative data quality écartée section 3.6 - Solution lourde legacy
+Deequ,HOLD,Tools,FALSE,Alternative data quality écartée section 3.6 - Moins flexible user-friendly vs Great Expectations
+Soda Core,HOLD,Tools,FALSE,Alternative data quality écartée section 3.6 - Moins mature entreprise vs Great Expectations
+Monte Carlo,HOLD,Tools,FALSE,Alternative data quality écartée section 3.6 - SaaS payant hors budget
+Azure Data Factory,HOLD,Tools,FALSE,Alternative orchestration écartée section 3.7 - Visuel mais moins flexible vs Airflow
+Prefect,HOLD,Tools,FALSE,Alternative orchestration écartée section 3.7 - Alternative Airflow moins mature
+Dagster,HOLD,Tools,FALSE,Alternative orchestration écartée section 3.7 - Data-aware mais moins communauté

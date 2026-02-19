@@ -1,57 +1,68 @@
 name,ring,quadrant,isNew,description
-Python,ADOPT,Languages,FALSE,Langage standard data engineering - PySpark pour traitement distribué Databricks et backend FastAPI
-TypeScript,ADOPT,Languages,FALSE,Superset JavaScript typé - sécurité code frontend React et maintenabilité équipe sur le long terme
-SQL,ADOPT,Languages,FALSE,Langage requêtes universel - transformations données et analyses métier standard industrie
-YAML,ADOPT,Languages,FALSE,Format configuration déclarative - lisible par métier et versionnable dans Git pour pipelines
-JSON,ADOPT,Languages,FALSE,Format échange données standard - schémas techniques et APIs REST entre services
-React,ADOPT,Frameworks,FALSE,Framework UI Facebook éprouvé - écosystème mature drag & drop (React Flow) et composants réutilisables entre projets
-FastAPI,ADOPT,Frameworks,FALSE,Backend Python async haute performance - validation auto Pydantic et documentation API Swagger native
-PySpark,ADOPT,Frameworks,FALSE,Framework traitement distribué Apache Spark - intégration native Databricks et optimisation gros volumes
+React 18,ADOPT,Frameworks,FALSE,Framework UI Facebook standard entreprise - Virtual DOM performant et écosystème mature pour interface drag & drop
+FastAPI,ADOPT,Frameworks,FALSE,Backend Python async haute performance - validation auto Pydantic et documentation Swagger native pour API REST
+PySpark,ADOPT,Frameworks,FALSE,Framework traitement distribué Apache Spark - intégration native Databricks et optimisation gros volumes données
 Pandas,ADOPT,Frameworks,FALSE,Librairie manipulation données Python - parsing fichiers Excel contrats interface et transformations data
-Jinja2,ADOPT,Frameworks,FALSE,Moteur templating Python - génération dynamique configurations YAML JSON pour Asset Bundles
-Databricks,ADOPT,Platforms,FALSE,Plateforme data lakehouse leader Gartner - unique avec Asset Bundles natifs et Delta Lake intégré
+Jinja2,ADOPT,Frameworks,FALSE,Moteur templating Python - génération dynamique configurations YAML JSON pour Asset Bundles Databricks
+React Query,ADOPT,Frameworks,FALSE,Gestion état serveur React - cache automatique synchronisation données backend et gestion requêtes API
+Axios,ADOPT,Frameworks,FALSE,Client HTTP JavaScript - intercepteurs erreurs et gestion tokens JWT pour sécurité API
+Material-UI,ADOPT,Frameworks,FALSE,Librairie composants React Google - design system professionnel accessible et responsive
+React Hook Form,ADOPT,Frameworks,FALSE,Gestion formulaires React performante - validation minimale rerenders pour UI fluide
+Python,ADOPT,Languages,FALSE,Langage standard data engineering - PySpark pour traitement distribué Databricks et backend FastAPI
+TypeScript,ADOPT,Languages,FALSE,Superset JavaScript typé - sécurité code frontend React et maintenabilité équipe sur long terme
+SQL,ADOPT,Languages,FALSE,Langage requêtes universel - transformations données analyses métier et Delta Lake SQL standard industrie
+YAML,ADOPT,Languages,FALSE,Format configuration déclarative - lisible par métier et versionnable dans Git pour pipelines Databricks
+JSON,ADOPT,Languages,FALSE,Format échange données standard - schémas techniques et APIs REST entre services backend frontend
+Markdown,ADOPT,Languages,FALSE,Format documentation standard - READMEs et documentation technique versionnée avec code
+Databricks,ADOPT,Platforms,FALSE,Plateforme data lakehouse leader Gartner 2024 - unique avec Asset Bundles natifs et Delta Lake intégré
 Delta Lake,ADOPT,Platforms,FALSE,Format stockage ACID open source - transactions garanties time-travel et gouvernance données Bronze-Silver-Gold
-Azure Data Lake Storage,ADOPT,Platforms,FALSE,Stockage cloud Microsoft entreprise - intégration native Databricks sécurité et RBAC
+Azure Data Lake Storage,ADOPT,Platforms,FALSE,Stockage cloud Microsoft entreprise - intégration native Databricks sécurité RBAC et encryption
 Azure DevOps,ADOPT,Platforms,FALSE,Suite CI/CD Microsoft entreprise - pipelines build release déploiement automatisé et Azure AD
-GitHub,ADOPT,Platforms,FALSE,Plateforme versionning code standard - collaboration équipe revues de code et Actions CI/CD
+GitHub,ADOPT,Platforms,FALSE,Plateforme versionning code standard - collaboration équipe revues de code et Actions CI/CD intégration
+Unity Catalog,ADOPT,Platforms,FALSE,Gouvernance données unifiée Databricks - lineage permissions discovery catalog et sécurité entreprise
 Great Expectations,ADOPT,Tools,FALSE,Framework data quality open source leader - 50+ règles validation et rapports automatiques Data Docs
-Azure Key Vault,ADOPT,Tools,FALSE,Gestion secrets Microsoft entreprise - stockage sécurisé credentials et certificats
-VS Code,ADOPT,Tools,FALSE,IDE standard développement - extensions Python React et intégration Git Databricks
-Jest,ADOPT,Tools,FALSE,Framework tests unitaires JavaScript - couverture code React et validation composants UI
-Pytest,ADOPT,Tools,FALSE,Framework tests Python standard - tests backend FastAPI et validation logique métier
-REST APIs,ADOPT,Techniques,FALSE,Architecture communication services standard - interopérabilité et scalabilité horizontale
-CI/CD,ADOPT,Techniques,FALSE,Intégration déploiement continus - livraison rapide fiable et rollback automatique en cas d'échec
-Infrastructure as Code,ADOPT,Techniques,FALSE,Gestion infrastructure via code - reproductibilité environnements et versionning configurations
-Asset Bundles,TRIAL,Platforms,TRUE,Nouveauté Databricks 2023 - Infrastructure as Code natif déploiement multi-environnements dev staging prod
-Unity Catalog,TRIAL,Tools,TRUE,Gouvernance données unifiée Databricks - lineage permissions et discovery catalog entreprise
-React Flow,TRIAL,Frameworks,TRUE,Librairie spécialisée drag drop React - visualisation interactive pipelines métier no-code
-React Query,TRIAL,Frameworks,TRUE,Gestion état serveur React - cache automatique et synchronisation données backend
-Zustand,TRIAL,Frameworks,TRUE,State management React léger - alternative Redux simplifiée pour état global application
-Material-UI,TRIAL,Frameworks,TRUE,Librairie composants React Google - design system professionnel et accessible
-Poetry,TRIAL,Tools,TRUE,Gestion dépendances Python moderne - remplacement pipenv et packaging standardisé
-Docker,TRIAL,Tools,FALSE,Conteneurisation applications - environnements reproductibles et déploiement portable
-Apache Airflow,ASSESS,Tools,FALSE,Orchestration workflows avancée - remplacement Databricks Workflows phase 2 scaling complexe
-dbt,ASSESS,Tools,FALSE,Transformation SQL analytics - couche Gold modèles métier et documentation auto future
-Apache Kafka,ASSESS,Platforms,FALSE,Streaming temps réel distribué - évolution architecture batch vers streaming temps réel
-Delta Live Tables,ASSESS,Platforms,TRUE,ETL déclaratif Databricks simplifié - mode streaming temps réel et gestion auto qualité
-MLflow,ASSESS,Tools,FALSE,Plateforme ML lifecycle - tracking expériences et détection anomalies qualité via ML
-Terraform,ASSESS,Tools,FALSE,Infrastructure as Code HashiCorp - plan B si Asset Bundles Databricks limités ou trop complexes
-Monte Carlo,ASSESS,Tools,FALSE,Plateforme data observabilité - surveillance proactive qualité données hors budget MVP
-Soda Core,ASSESS,Tools,FALSE,Alternative data quality open source - plus léger Great Expectations évaluation en cours
-Snowflake,ASSESS,Platforms,FALSE,Data warehouse cloud concurrent - évaluation alternative Databricks si coûts excessifs
-Prefect,ASSESS,Tools,FALSE,Orchestration moderne Python-native - alternative Airflow plus simple et cloud-native
-Informatica,HOLD,Tools,FALSE,ETL propriétaire legacy entreprise - coûts licences 100K€+ annuels et vendor lock-in fort évité
-Talend,HOLD,Tools,FALSE,Data integration legacy open source - solution lourde complexe remplacée par stack moderne Python
-Hadoop on-premise,HOLD,Platforms,FALSE,Infrastructure big data legacy on-premise - obsolète vs cloud lakehouse scalable et serverless
-AWS EMR,HOLD,Platforms,FALSE,Cloud Hadoop managé Amazon - trop configuration manuelle vs Databricks unifié et surcoût ops
-Google Dataproc,HOLD,Platforms,FALSE,Spark managé GCP - vendor lock-in Google et écosystème moins intégré Azure entreprise
-Excel VBA,HOLD,Languages,FALSE,Scripts macros Excel non maintenables - pas versioning pas tests dette technique cachée éliminée
-Streamlit,HOLD,Frameworks,FALSE,Framework demo data science Python - trop limité interactions complexes pas adapté production entreprise
-Angular,HOLD,Frameworks,FALSE,Framework frontend Google lourd - courbe apprentissage 2-3 mois vs React rapide MVP 3 mois
-Django,HOLD,Frameworks,FALSE,Framework Python full-stack lourd - trop complexe pour API simple et overhead ORM inutile
-Flask,HOLD,Frameworks,FALSE,Micro-framework Python léger - manque structure validation auto et async natif vs FastAPI
-Node.js Express,HOLD,Frameworks,FALSE,Backend JavaScript runtime - pas cohérent stack Python data et performances inférieures FastAPI
-jQuery,HOLD,Frameworks,FALSE,Librairie JavaScript DOM legacy 2006 - obsolète remplacée par React moderne virtual DOM
-SOAP APIs,HOLD,Techniques,FALSE,Protocole web services XML lourd - remplacé par REST JSON léger performant et lisible
-XML Configs,HOLD,Techniques,FALSE,Format configuration verbeux complexe - remplacé par YAML lisible humain et moins d'erreurs
-Manuel deployments,HOLD,Techniques,FALSE,Déploiements à la main risqués - remplacé par CI/CD automatisé et rollback sûr
+Azure Key Vault,ADOPT,Tools,FALSE,Gestion secrets Microsoft entreprise - stockage sécurisé credentials certificats et rotation automatique
+VS Code,ADOPT,Tools,FALSE,IDE standard développement - extensions Python React et intégration Git Databricks pour productivité équipe
+Jest,ADOPT,Tools,FALSE,Framework tests unitaires JavaScript - couverture code React et validation composants UI automatisée
+Pytest,ADOPT,Tools,FALSE,Framework tests Python standard - tests backend FastAPI et validation logique métier avec fixtures
+Git,ADOPT,Tools,FALSE,Système versionning distribué standard - collaboration équipe traçabilité modifications et branches feature
+Docker,ADOPT,Tools,FALSE,Conteneurisation applications - environnements reproductibles et déploiement portable dev staging prod
+REST APIs,ADOPT,Techniques,FALSE,Architecture communication services standard - interopérabilité scalabilité horizontale et stateless
+CI/CD,ADOPT,Techniques,FALSE,Intégration déploiement continus - livraison rapide fiable rollback automatique et tests automatisés
+Infrastructure as Code,ADOPT,Techniques,FALSE,Gestion infrastructure via code - reproductibilité environnements versionning configurations et audit
+Asset Bundles,TRIAL,Frameworks,TRUE,Nouveauté Databricks 2023 - Infrastructure as Code natif déploiement multi-environnements dev staging prod via CLI
+React Flow,TRIAL,Frameworks,TRUE,Librairie spécialisée drag drop React - visualisation interactive pipelines métier no-code et graphiques fluides
+Zustand,TRIAL,Frameworks,TRUE,State management React léger - alternative Redux simplifiée pour état global application sans boilerplate
+React DnD,TRIAL,Frameworks,TRUE,Librairie drag drop React native - alternative React Flow pour interactions simples et légèreté
+React Testing Library,TRIAL,Frameworks,TRUE,Tests React orientés utilisateur - validation comportement UI et accessibilité composants
+Poetry,TRIAL,Tools,TRUE,Gestion dépendances Python moderne - remplacement pipenv packaging standardisé et lock file sécurisé
+Black,TRIAL,Tools,TRUE,Formateur code Python automatique - style consistent et revues de code simplifiées sans débats formatage
+Mypy,TRIAL,Tools,TRUE,Vérificateur types Python statique - détection erreurs avant runtime et documentation code implicite
+Pre-commit,TRIAL,Tools,TRUE,Hooks Git exécution automatique - linting formatage et tests avant chaque commit pour qualité code
+Apache Airflow,ASSESS,Frameworks,FALSE,Orchestration workflows avancée Python - remplacement Databricks Workflows phase 2 scaling complexe et sensors
+dbt,ASSESS,Frameworks,FALSE,Transformation SQL analytics - couche Gold modèles métier documentation auto et tests données future
+Prefect,ASSESS,Frameworks,FALSE,Orchestration moderne Python-native - alternative Airflow plus simple cloud-native et UI moderne
+Dagster,ASSESS,Frameworks,FALSE,Orchestration data-aware - excellent support tests et lineage données pour pipelines complexes
+Apache Kafka,ASSESS,Platforms,FALSE,Streaming temps réel distribué - évolution architecture batch vers streaming temps réel latence faible
+Delta Live Tables,ASSESS,Platforms,TRUE,ETL déclaratif Databricks simplifié - mode streaming temps réel et gestion automatique qualité données
+MLflow,ASSESS,Tools,FALSE,Plateforme ML lifecycle - tracking expériences détection anomalies qualité via machine learning future
+Terraform,ASSESS,Tools,FALSE,Infrastructure as Code HashiCorp - plan B si Asset Bundles Databricks limités ou trop complexes migration possible
+Monte Carlo,ASSESS,Tools,FALSE,Plateforme data observabilité - surveillance proactive qualité données hors budget MVP évaluation future
+Soda Core,ASSESS,Tools,FALSE,Alternative data quality open source - plus léger Great Expectations évaluation en cours pour cas simples
+Snowflake,ASSESS,Platforms,FALSE,Data warehouse cloud concurrent - évaluation alternative Databricks si coûts excessifs ou besoins warehousing purs
+Informatica,HOLD,Frameworks,FALSE,ETL propriétaire legacy entreprise - coûts licences 100K€+ annuels vendor lock-in fort et complexité inutile
+Talend,HOLD,Frameworks,FALSE,Data integration legacy open source - solution lourde complexe remplacée par stack moderne Python React
+Angular,HOLD,Frameworks,FALSE,Framework frontend Google lourd - courbe apprentissage 2-3 mois vs React rapide pour MVP 3 mois deadline
+Django,HOLD,Frameworks,FALSE,Framework Python full-stack lourd - trop complexe pour API simple overhead ORM inutile et moins performant FastAPI
+Flask,HOLD,Frameworks,FALSE,Micro-framework Python léger - manque structure validation auto et async natif vs FastAPI moderne
+Node.js Express,HOLD,Frameworks,FALSE,Backend JavaScript runtime - pas coûhérent stack Python data Databricks et performances inférieures FastAPI
+jQuery,HOLD,Frameworks,FALSE,Librairie JavaScript DOM legacy 2006 - obsolète remplacée par React moderne virtual DOM et hooks
+Vue.js,HOLD,Frameworks,FALSE,Framework frontend progressif - moins mature écosystème drag drop vs React pour notre use case spécifique
+Svelte,HOLD,Frameworks,FALSE,Framework frontend compilé - trop récent moins outils entreprise et communauté vs React éprouvé
+Hadoop on-premise,HOLD,Platforms,FALSE,Infrastructure big data legacy on-premise - obsolète vs cloud lakehouse scalable serverless et ops lourde
+AWS EMR,HOLD,Platforms,FALSE,Cloud Hadoop managé Amazon - trop configuration manuelle vs Databricks unifié et surcoût opérationnel
+Google Dataproc,HOLD,Platforms,FALSE,Spark managé GCP - vendor lock-in Google écosystème moins intégré Azure entreprise existante
+Excel VBA,HOLD,Languages,FALSE,Scripts macros Excel non maintenables - pas versioning pas tests dette technique cachée éliminée complètement
+SOAP APIs,HOLD,Techniques,FALSE,Protocole web services XML lourd verbeux - remplacé par REST JSON léger performant et lisible humain
+XML Configs,HOLD,Techniques,FALSE,Format configuration verbeux complexe - remplacé par YAML lisible humain et moins erreurs syntaxe
+Manuel deployments,HOLD,Techniques,FALSE,Déploiements à la main risqués erreurs humaines - remplacé par CI/CD automatisé rollback sûr et rapide
